@@ -1,0 +1,23 @@
+<section class="experience"> 
+  <div class="experience_content">
+    <div class="content_title">
+    <p>My Professional Journey so far ...</p>
+    </div>
+    {% for project in site.data.experience %}
+    <div class="project_content">
+      <div class="project_items">
+        <a href="{{project.url}}" target="_blank" >{{project.company}}</a>          
+      </div>
+      <div class="project_items duration">{{project.time}}</div>   
+      <div class="project_position">{{project.position}}</div>       
+      
+      <p>{{project.description}}</p>
+      <div class="project_used">
+        {% for item in project.used %}
+        <span class="project_used_items">{{item.thing}}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

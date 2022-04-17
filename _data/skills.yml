@@ -1,0 +1,29 @@
+languages:
+  - item: JAVA
+  - item: React/Next JavaScript
+  - item: HTML/CSS
+  - item: Node JavaScript
+  - item: SQL
+  - item: C++ (Beginner)
+
+frameworks:
+  - item: Selenium WebDriver
+  - item: Appium
+  - item: Cucumber
+  - item: REST Assured
+  - item: TestNG
+  - item: JUnit
+
+tools:
+  - item: IntelliJ IDEA
+  - item: Git & Github
+  - item: POSTMAN
+  - item: VS Code
+  - item: SoapUI
+  - item: JIRA
+
+design:
+  - item: Data Driven Design
+  - item: CI/CD - Circle ci
+  - item: Rest API Testing - Postman
+  - item: Load Testing - JMeter

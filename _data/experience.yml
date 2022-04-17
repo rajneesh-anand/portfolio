@@ -1,0 +1,46 @@
+- company: ICPA Global Consultant
+  url: http://icpaglobalconsultant.com/
+  time: March 2020 - PRESENT,
+  position: Full Stack Developer
+  description: ICPA Global Consultant is a consulting firm for online sellers on various e-commerce platforms.
+  used:
+    - thing: React/Next JavaScript
+    - thing: TypeScript
+    - thing: Node JavaScript
+    - thing: Postgres
+    - thing: AWS/Vercel
+    - thing: Tailwind CSS , Material UI
+
+- company: Cruise Carrot Shipping Private Limited
+  url: http://www.cruisecarrot.com/
+  time: May 2018 - PRESENT
+  position: Full Stack Developer
+  description: Cruise Carrot is one of the fastest growing online cuise booking company that redefines cruise experience with the newest possibility on the deck.
+  used:
+    - thing: React JavaScript
+    - thing: PHP / Node JavaScript
+    - thing: MySQL
+    - thing: AWS
+    - thing: Testing Tool - RestAssured
+
+- company: MEDIOLOGY SOFTWARE PVT. LIMITED
+  url: https://www.mediologysoftware.com/
+  time: April 2014 - August 2016,
+  position: Software Engineer (Automation Test)
+  description: Mediology Software designs and develops a cross-platform application i.e Readwhere, an online reading & publishing hub
+  used:
+    - thing: JavaScript/HTML/Sass
+    - thing: JAVA
+    - thing: Android
+    - thing: MySQL
+    - thing: Testing Tool - Selenium WebDriver (Java Client)
+
+- company: HARIOM SOFTWARE SOLUTIONS
+  time: February 2009 - March 2014,
+  position: Software Engineer (JAVA)
+  description: It is a product based company, primarily develops accounting based standalone application for retail industry.
+  used:
+    - thing: JSP
+    - thing: JAVA
+    - thing: MySQL
+    - thing: Testing Tool - HP QuickTest Professional

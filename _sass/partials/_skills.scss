@@ -1,0 +1,36 @@
+.skills {
+    .skillz {
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      margin: 50px 0;
+      
+      @include weird-medium {
+        flex-wrap: wrap;
+      }
+      &__category {
+        @include weird-medium {
+          width: 47%;
+          margin-right: 5px;
+          margin-bottom: 25px;
+        }
+        &__label {
+          font-weight: 700;
+          color: $black;
+          text-transform: uppercase;
+          margin-left: 40px;
+          border-bottom: 4px solid red;
+         
+          
+        }
+        &__item { 
+               
+          font-size: 0.9rem;
+          list-style-type:none;       
+          
+          
+        }
+      }
+    }
+  }
+ 

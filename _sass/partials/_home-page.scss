@@ -1,0 +1,123 @@
+.about {
+  margin: 0 0 40px;
+  text-align: center;
+  
+  img {
+    width: 220px;
+    height: 220px;
+    transition: transform 0.35s;
+    &:hover {
+      transform: scale3d(0.90,0.90,1);
+    }
+  }
+  .author-name {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 10px;
+    position: relative;
+    padding-bottom: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $dark;
+    font-weight: 700;
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 2px;
+      width: 100%;
+      transform: translateY(-50%);
+      background-color: $body-color;
+    }
+  }
+  p {
+    font-size: 16px;
+    margin: 0 0 10px;
+    font-family: 'Play', sans-serif;
+    color: black;
+  }
+}
+
+.contact {
+  .contact-title {
+    position: relative;
+    color: $dark;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    text-align: center;
+    &::before {
+      content: "";
+      display: block;
+      height: 2px;
+      width: calc(50% - 48px);
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      left: 0;
+      background-color: $dark-blue;
+    }
+    &::after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: calc(50% - 48px);
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      right: 0;
+      background-color: $body-color;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin-left: 10px;
+      &:first-child {
+        margin-left: 0;
+      }
+      a {
+        color: $body-color;
+        display: block;
+        padding: 5px;
+        font-size: 18px;
+        transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
+        &:hover {
+          color: $dark;
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+
+footer {
+  .copyright {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.buttonlink { 
+  display: inline-block;
+  font-weight: 700;
+  background:#867bfb;
+  color: #ccc;
+  border: 0;
+  font-family: 'Inconsolata', monospace; 
+  text-decoration: none;
+  padding:0.5em 2em;
+  border-radius: 40px;
+  margin: 1em 0;
+  transition: 0.3s;  
+  
+}
+
+.buttonlink:hover{
+  box-shadow: 0 10px 50px rgba(188,197,216,1);
+}
