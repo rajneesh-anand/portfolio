@@ -3,8 +3,8 @@ languages:
   - item: React/Next JavaScript
   - item: HTML/CSS
   - item: Node JavaScript
-  - item: SQL
-  - item: C++ (Beginner)
+  - item: SQL/NoSQL
+  - item: C++
 
 frameworks:
   - item: Selenium WebDriver

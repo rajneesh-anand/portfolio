@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "personal portfolio website",
+  "description": "portfolio website",
   "main": "index.js",
   "repository": "https://github.com/rajneesh-anand/portfolio",
   "author": "Rajneesh Anand",
