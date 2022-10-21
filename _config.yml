@@ -1,5 +1,5 @@
 title: Hello ! I'm Rajneesh
-description: Portfolio for Full Stack Developer, Software Testing, Quality Analyst, Data Analyst,Blogger,Traveller,Yogi
+description: Full Stack Developer, Software Testing, Quality Analyst, Data Analyst, Blogger, Traveller, Yogi
 permalink: ":title/"
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 #url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
@@ -7,7 +7,7 @@ url: ""
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Rajneesh Kumar # add your name
+author: Rajnish Kumar # add your name
 author-img: profile.png # add your photo
 about-author: Full Stack Developer - Software Test Automation - Data Analyst - Blogger  - Traveller - Yogi # add description
 social-twitter: # add your Twitter handle
@@ -20,7 +20,7 @@ resume: https://rajneesh-anand.github.io/portfolio/resume.pdf
 # discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: Google Analytics
 
 # Build Settings
 markdown: kramdown
