@@ -1,10 +1,11 @@
 languages:
   - item: JAVA
-  - item: React/Next JavaScript
-  - item: HTML/CSS
-  - item: Node JavaScript
-  - item: SQL/NoSQL
-  - item: C++
+  - item: React/Next Js
+  - item: Node Js
+  - item: Typescript
+  - item: HTML/CSS 
+  - item: RDBMS(MySQL, PostgreSql)/NoSQL(Mongo DB)
+  - item: C++ (Begginer level)
 
 frameworks:
   - item: Selenium WebDriver

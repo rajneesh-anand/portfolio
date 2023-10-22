@@ -75,7 +75,7 @@ $(function () {
 });
 
 (function () {
-  var words = ["Здравствуйте !", "Hello,", "Hallo,", "Bonjour,"],
+  var words = ["Hi,", "Hallo,"],
     i = 0;
   setInterval(function () {
     $("#changingword").fadeOut(function () {
